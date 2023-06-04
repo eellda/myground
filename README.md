@@ -4,13 +4,8 @@
 ### setting
 
 ---
-IDE - IntelliJ (EE8)  
-Language - Java (1.8)  
+IDE - IntelliJ  
+Language - Java (17)  
 Front - JSP  
-Back - Tomcat  
+Back - Spring Boot
 DB - MySQL
-
-### DB 1.0
-
----
-![img.png](img.png)
