@@ -7,12 +7,14 @@
 	`created_date`	date	NULL
 );
 
+ALTER TABLE `user` ADD COLUMN `nickname` varchar(30) NULL;
+
 CREATE TABLE `n_board` (
 	`nb_id`	bigint(20)	NOT NULL,
 	`writer_id`	bigint(20)	NOT NULL,
-	`title`	varchar2(30)	NOT NULL,
-	`content`	varchar2(255)	NOT NULL,
-	`file`	varchar2(100)	NULL,
+	`title`	varchar(30)	NOT NULL,
+	`content`	varchar(255)	NOT NULL,
+	`file`	varchar(100)	NULL,
 	`created_date`	date	NULL
 );
 
